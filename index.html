@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@600&display=swap"
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
@@ -28,6 +28,93 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span>Selina</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="profile">
+      <h1 class="header">Selina Andersson</h1>
+      <img src="img/IMG_2019.jpeg" alt="A photo of me" width="200" />
+      <h2>Front-End Developer</h2>
+    </div>
+
+    <div class="container" id="info">
+      <div class="row">
+        <div class="col-sm-4" class="info-row">
+          <h3>Instagram</h3>
+        </div>
+        <div class="col-sm-4" class="info-row">
+          <h3>Linkedin</h3>
+        </div>
+        <div class="col-sm-4" class="info-row">
+          <h3>Github</h3>
+        </div>
+      </div>
+    </div>
+    <div class="profile" id="second-profile">
+      <h2 class="header-two">My projects</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="img/Screenshot-croissant.png"
+            alt="An image that displays a woman doing yoga"
+            class="img-fluid rounded shadow-lg"
+            width="400"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="img/Screenshot-yoga.png"
+            alt="An image of a weather-app that displays the weather of different places and days."
+            class="img-fluid rounded shadow-lg"
+            width="400"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="img/Screenshot-weather-app.png"
+            alt="An image of some yogurt with blueberries."
+            class="img-fluid rounded shadow-lg"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="bottom-page">
+      <h3>
+        <ul>
+          About
+        </ul>
+        <ul>
+          Contact
+        </ul>
+        <ul>
+          FAQ
+        </ul>
+      </h3>
+    </div>
   </body>
 </html>
