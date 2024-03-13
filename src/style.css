@@ -43,6 +43,7 @@ img {
   margin: 50px auto;
   border-radius: 150px;
 }
+
 .link {
   text-decoration: none;
   color: var(--fourth-color);
@@ -95,4 +96,13 @@ img {
   padding-top: 50px;
   padding-bottom: 150px;
   background-color: var(--third-color);
+}
+
+.about-img {
+  margin: 50px;
+  border-radius: 150px;
+}
+h2#front-end2 {
+  margin: 50px;
+  text-align: start;
 }
