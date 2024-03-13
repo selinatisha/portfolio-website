@@ -25,12 +25,16 @@
       content="width=h1
     , initial-scale=1.0"
     />
-    <title>Document</title>
+    <title>Selinas-website</title>
+    <meta
+      name="description"
+      content="This is a portfolio website that showcase projects and information about selina. "
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><span>Selina</span></a>
+        <a class="navbar-brand" href="#"><span class="name">Selina</span></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,10 +48,34 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link active" aria-current="page" href="#">About</a>
-            <a class="nav-link active" aria-current="page" href="#">Contact</a>
-            <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="index.html"
+              title="Link to homepage"
+              >Home</a
+            >
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="about.html"
+              title="Link to about page"
+              >About</a
+            >
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="contact.html"
+              title="Link to contact page"
+              >Contact</a
+            >
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="contact.html#FAQ"
+              title="Link to FAQ"
+              >FAQ</a
+            >
           </div>
         </div>
       </div>
@@ -55,19 +83,40 @@
     <div class="profile">
       <h1 class="header">Selina Andersson</h1>
       <img src="img/IMG_2019.jpeg" alt="A photo of me" width="200" />
-      <h2>Front-End Developer</h2>
+      <h2 class="front-end-header">Front-End Developer</h2>
     </div>
 
     <div class="container" id="info">
       <div class="row">
         <div class="col-sm-4" class="info-row">
-          <h3>Instagram</h3>
+          <a
+            class="btn"
+            href="https://www.instagram.com/selina_studio2_/"
+            title="Selinas Instagram page where you can find out more about my intrests"
+            role="button"
+            target="_blank"
+            ><h3 class="instagram">Instagram</h3></a
+          >
         </div>
         <div class="col-sm-4" class="info-row">
-          <h3>Linkedin</h3>
+          <a
+            class="btn"
+            href="https://www.linkedin.com/in/selina-andersson-38835023b/"
+            title="Selinas linkedin profile."
+            role="button"
+            target="_blank"
+            ><h3 class="linkedin">Linkedin</h3></a
+          >
         </div>
         <div class="col-sm-4" class="info-row">
-          <h3>Github</h3>
+          <a
+            class="btn"
+            href="https://github.com/selinatisha"
+            title="Selinas Github profile."
+            role="button"
+            target="_blank"
+            ><h3 class="github">Github</h3></a
+          >
         </div>
       </div>
     </div>
@@ -80,7 +129,7 @@
         <div class="col-sm-4">
           <img
             src="img/Screenshot-croissant.png"
-            alt="An image that displays a woman doing yoga"
+            alt="An image that displays my portfolio my shecodes croissant responsive project."
             class="img-fluid rounded shadow-lg"
             width="400"
           />
@@ -88,7 +137,7 @@
         <div class="col-sm-4">
           <img
             src="img/Screenshot-yoga.png"
-            alt="An image of a weather-app that displays the weather of different places and days."
+            alt="An image that displays my SheCodes portfolio project."
             class="img-fluid rounded shadow-lg"
             width="400"
           />
@@ -96,7 +145,7 @@
         <div class="col-sm-4">
           <img
             src="img/Screenshot-weather-app.png"
-            alt="An image of some yogurt with blueberries."
+            alt="An image of a weather-app that displays the weather of different places and days."
             class="img-fluid rounded shadow-lg"
             width="400"
           />
@@ -106,13 +155,20 @@
     <div class="bottom-page">
       <h3>
         <ul>
-          About
+          <a href="about.html" class="link" title="Link to about page">About</a>
         </ul>
         <ul>
-          Contact
+          <a href="contact.html" class="link" title="Link to contac page"
+            >Contact</a
+          >
         </ul>
         <ul>
-          FAQ
+          <a
+            href="contact.html#FAQ"
+            class="link"
+            title="Link to FAQ section on contact page"
+            >FAQ</a
+          >
         </ul>
       </h3>
     </div>
