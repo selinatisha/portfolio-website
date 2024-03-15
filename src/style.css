@@ -24,7 +24,6 @@ h1 {
   text-align: center;
 }
 h2 {
-  text-align: center;
   font-family: "Futura", sans-serif;
 }
 h3 {
@@ -55,9 +54,11 @@ img {
   font-family: "Lobster", sans-serif;
 }
 .front-end-header {
+  text-align: center;
   color: var(--fourth-color);
 }
 .header-two {
+  text-align: center;
   font-family: "Futura", sans-serif;
   font-size: 50px;
   color: var(--fourth-color);
@@ -102,7 +103,22 @@ img {
   margin: 50px;
   border-radius: 150px;
 }
-h2#front-end2 {
-  margin: 50px;
+#front-end2 {
+  margin: 30px;
+  color: var(--fourth-color);
+}
+
+img.img-column {
+  border-radius: 1px;
+}
+.container {
+  margin-top: 50px;
+}
+p {
+  display: block;
+  padding: 30px;
+  font-weight: 200;
+  border-radius: 4px;
+  line-height: 1.5;
   text-align: start;
 }
