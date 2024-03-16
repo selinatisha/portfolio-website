@@ -10,6 +10,11 @@
     width: 100%;
     margin: 10px auto;
   }
+  img.img-column {
+    width: 100;
+  }
+  p {
+  }
 }
 span {
   font-size: 40px;
@@ -121,4 +126,8 @@ p {
   border-radius: 4px;
   line-height: 1.5;
   text-align: start;
+}
+p.profile-patagraph {
+  display: block;
+  justify-content: center;
 }
