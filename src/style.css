@@ -12,8 +12,15 @@
   }
   img.img-column {
     width: 100;
+    display: none;
   }
-  p {
+  img.about-img {
+    margin: 100px;
+    width: 100;
+  }
+
+  h2#front-end2 {
+    text-align: center;
   }
 }
 span {
@@ -126,8 +133,4 @@ p {
   border-radius: 4px;
   line-height: 1.5;
   text-align: start;
-}
-p.profile-patagraph {
-  display: block;
-  justify-content: center;
 }
