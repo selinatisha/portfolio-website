@@ -134,3 +134,48 @@ p {
   line-height: 1.5;
   text-align: start;
 }
+.faq-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container h1 {
+  color: #fff;
+  text-align: center;
+}
+
+details {
+  margin: 1% auto;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+}
+
+summary {
+  padding: 0.5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  content: "\002B";
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+details[open] summary:after {
+  content: "\00D7";
+}
+
+details[open] div {
+  padding: 0.5em 1em;
+}
