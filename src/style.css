@@ -164,6 +164,11 @@ p {
 p.contact-paragraph {
   text-align: center;
 }
+a.open-source {
+  text-align: center;
+  font-family: "Futura", sans-serif;
+  color: var(--fourth-color);
+}
 
 details {
   margin: 1% auto;
