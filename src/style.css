@@ -132,6 +132,9 @@ img.img-column {
 img.img-certificate {
   border-radius: 1px;
 }
+img.footer {
+  margin: 10px;
+}
 p {
   display: block;
   padding: 30px;
@@ -145,6 +148,11 @@ p {
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
+}
+.follow-me {
+  display: flex;
+  margin-left: 10px;
+  text-align: right;
 }
 .container h1 {
   color: #fff;
