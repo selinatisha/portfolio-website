@@ -158,6 +158,9 @@ p {
   color: #fff;
   text-align: center;
 }
+p.contact-paragraph {
+  text-align: center;
+}
 
 details {
   margin: 1% auto;
