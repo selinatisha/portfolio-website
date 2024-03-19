@@ -15,7 +15,7 @@
     display: none;
   }
   img.about-img {
-    margin: 100px;
+    margin: 110px;
     width: 100;
   }
 
@@ -45,6 +45,9 @@ h3 {
   background-color: var(--third-color);
   border: 10px solid var(--third-color);
   border-radius: 10px;
+}
+b.bold {
+  text-align: center;
 }
 ul {
   font-family: "Futura", sans-serif;
