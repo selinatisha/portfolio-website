@@ -11,20 +11,47 @@
     width: 100%;
     margin: 10px auto;
   }
-  img.img-column {
-    width: 100;
-    display: none;
+  p.contact-paragraph {
+    font-size: large;
   }
   img.about-img {
-    margin: 110px;
-    width: 100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
+  h2#second-header {
+    display: block;
+    width: 100%;
+    font-size: 50px;
+  }
+  h1 {
+    margin-top: 50% auto;
+  }
+}
 
-  h2#front-end2 {
-    text-align: center;
+@media (max-width: 600px) {
+  a.btn {
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
   }
-  .faq-container {
-    font-size: x-small;
+  p.contact-paragraph {
+    font-size: small;
+  }
+  img.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  h2#second-header {
+    display: block;
+    width: 100%;
+    font-size: 50px;
+  }
+  h1 {
+    margin-top: 50% auto;
   }
 }
 
@@ -212,7 +239,6 @@ details[open] div {
 /* Additions for project images */
 .scroll-container {
   display: flex;
-  margin: 0%;
   overflow-x: auto;
   gap: 50px;
   padding: 20px;
@@ -229,6 +255,14 @@ details[open] div {
 .project-card:hover {
   transform: scale(1.05);
 }
+a.project-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent element */
+}
+a.project-link:hover {
+  color: var(--secondary-color); /* Change color on hover */
+}
+
 .project-img {
   margin: 0;
   width: 100%;
