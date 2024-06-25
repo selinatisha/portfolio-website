@@ -128,11 +128,13 @@ img {
 .instagram,
 .linkedin,
 .github {
+  transition: transform 0.3s ease;
   color: var(--fourth-color);
 }
 .instagram:hover,
 .linkedin:hover,
 .github:hover {
+  transform: scale(1.05);
   color: var(--secondary-color);
 }
 #second-profile {
@@ -287,4 +289,69 @@ a.project-link:hover {
   .scroll-container {
     gap: 20px;
   }
+}
+@keyframes popUp {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+img.profile-img {
+  animation: popUp 1s ease forwards;
+}
+
+h2.front-end-header {
+  animation: fadeIn 2s ease forwards;
+}
+/* Keyframes for animations */
+@keyframes popUpThenDown {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAndResize {
+  0% {
+    font-size: 1rem;
+    opacity: 0;
+  }
+  50% {
+    font-size: 2rem;
+    opacity: 1;
+  }
+  100% {
+    font-size: 1.5rem;
+    opacity: 1;
+  }
+}
+
+img.profile-img {
+  animation: popUpThenDown 2s ease forwards;
+}
+
+h2.front-end-header {
+  animation: fadeInAndResize 3s ease forwards;
 }
